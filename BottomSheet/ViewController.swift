@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  BottomSheet
-//
-//  Created by Kashyap on 18/07/20.
-//  Copyright © 2020 Kashyap. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
@@ -50,7 +42,7 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         self.trailingConstraint.constant = self.view.frame.width
     }
-
+    
     private var isBottomSheetShown = false
     
     @IBAction func clickedOnButton(_ sender: Any)
